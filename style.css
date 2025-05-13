@@ -1,0 +1,73 @@
+/* 전체 배경 및 폰트 설정 */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* 메인 컨테이너 박스 */
+  .container {
+    max-width: 700px;
+    margin: 60px auto;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* 타이틀 */
+  h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 30px;
+  }
+  
+  /* 프로필 정보 문단 */
+  .profile p {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #34495e;
+    margin-bottom: 15px;
+  }
+  
+  /* 굵은 텍스트 */
+  .profile strong {
+    color: #2c3e50;
+  }
+  
+  /* 소셜 링크 그룹 */
+  .social {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  /* 각 소셜 항목 */
+  .social-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  /* 링크 텍스트 */
+  .social-item a {
+    color: #2980b9;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* 링크에 마우스를 올렸을 때 */
+  .social-item a:hover {
+    text-decoration: underline;
+  }
+  
+  /* 프로필 이미지 (원형) */
+  .social-item img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid #ccc;
+  }
+  
